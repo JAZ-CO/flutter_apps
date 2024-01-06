@@ -25,7 +25,7 @@ class MainPage extends StatelessWidget {
                   fontWeight: FontWeight.bold),
             ),
             // search Bar
-            TextField(),
+            TextField(autofillHints: Iterable.generate(4)),
 
             // seperate line
 
